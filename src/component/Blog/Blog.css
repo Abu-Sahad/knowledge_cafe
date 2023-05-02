@@ -1,0 +1,26 @@
+/* .blog-details img {
+    height: 450px;
+
+} */
+.read-time-area{
+    margin-left: -50px;
+}
+
+.person-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-person img {
+    width: 60px;
+    height: 60px;
+    padding-top: 25px;
+}
+
+.single-person {
+    display: flex;
+    
+}
+.single-person-details{
+    padding-left: 15px;
+}

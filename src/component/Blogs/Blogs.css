@@ -1,0 +1,9 @@
+.all-blog {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.blog-part {
+    padding-left: 110px;
+}
