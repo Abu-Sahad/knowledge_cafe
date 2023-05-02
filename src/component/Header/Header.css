@@ -1,0 +1,19 @@
+.header-area {
+    padding-left: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    align-items: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.nav-option a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-option a:hover {
+    color: blanchedalmond;
+}
