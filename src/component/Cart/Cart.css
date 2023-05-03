@@ -1,8 +1,13 @@
 .cart-details {
     background: #FFFFFF;
     border-radius: 8px;
-    width: 351px;
-    height: 98px;
     margin-bottom: 15px;
     padding: 10px;
 }
+
+.cart-summary {
+    width: 351px;
+    height: 98px;
+}
+
+.spend-time {}
