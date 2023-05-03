@@ -30,3 +30,8 @@
 .single-person-details {
     padding-left: 15px;
 }
+
+.blog-button {
+    color: rgb(127, 127, 240);
+    text-decoration: underline;
+}

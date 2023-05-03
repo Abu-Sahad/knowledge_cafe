@@ -1,8 +1,6 @@
 import './Cart.css';
 
-const Cart = ({ cartItems }) => {
-    const totalReadTime = cartItems.reduce((acc, curr) => acc + parseInt(curr.read_time), 0);
-
+const Cart = ({ cartItems, totalReadTime  }) => {
     return (
         <div className='cart'>
             <div className='spend-time'>
@@ -25,3 +23,5 @@ const Cart = ({ cartItems }) => {
 };
 
 export default Cart;
+
+

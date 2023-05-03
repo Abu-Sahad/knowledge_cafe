@@ -5,7 +5,7 @@ import {faVectorSquare } from '@fortawesome/free-solid-svg-icons'
 const Blog = (props) => {
     const { name, img, date, discription, person_img, read_time } = props.product
    const handleClick=props.handleClick;
-
+   const handleTimeToClick=props.handleTimeToClick
    
     return (
         <div className='blog-details'>
@@ -25,7 +25,7 @@ const Blog = (props) => {
                 </div>
             </div>
             <h1>{discription}</h1>
-            <a href="">Mark As Read</a>
+            <button className='blog-button' onClick={()=>handleTimeToClick(props.product)}>Mark As Read</button>
         </div>
     );
 };

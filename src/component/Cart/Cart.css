@@ -32,4 +32,6 @@
     height: 750px;
 }
 
-.spend-time {}
+.spend-time h3{
+    color: #6047EC;
+}

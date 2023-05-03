@@ -8,6 +8,12 @@
     padding-bottom: 19px;
 }
 
+.header {
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 25px;
+}
+
 .nav-option a {
     margin-left: 20px;
     text-decoration: none;
