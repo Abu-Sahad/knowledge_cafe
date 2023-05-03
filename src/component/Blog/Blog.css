@@ -1,8 +1,13 @@
-/* .blog-details img {
+.blog-details img {
     height: 450px;
+    width: 850px;
+}
 
-} */
-.read-time-area{
+.blog-details {
+    margin-bottom: 25px;
+}
+
+.read-time-area {
     margin-left: -50px;
 }
 
@@ -19,8 +24,9 @@
 
 .single-person {
     display: flex;
-    
+
 }
-.single-person-details{
+
+.single-person-details {
     padding-left: 15px;
 }
