@@ -1,3 +1,9 @@
+.cart{
+    position: sticky;
+    top: 0;
+    height: 1352px;
+}
+
 .cart-details {
     background: #FFFFFF;
     border-radius: 8px;
