@@ -4,6 +4,13 @@
 
 }
 
+@media only screen and (max-width: 600px) {
+    .all-blog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .blog-part {
     padding-left: 110px;
     width: 850px;
