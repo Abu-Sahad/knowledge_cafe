@@ -1,4 +1,4 @@
-.cart{
+.cart {
     position: sticky;
     top: 0;
     height: 1352px;
@@ -7,6 +7,22 @@
 .cart-details {
     background: #FFFFFF;
     border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.cart-area {
+    margin-top: 15px;
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.spend-time {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
 }
