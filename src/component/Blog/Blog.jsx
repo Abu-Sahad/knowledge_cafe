@@ -1,7 +1,12 @@
 import React from 'react';
 import './Blog.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faVectorSquare } from '@fortawesome/free-solid-svg-icons'
 const Blog = (props) => {
     const { name, img, date, discription, person_img, read_time } = props.product
+   const handleClick=props.handleClick;
+
+   
     return (
         <div className='blog-details'>
             <img src={img} alt="" />
@@ -16,7 +21,7 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <div className='read-time-area'>
-                    <p>{read_time}</p>
+                    <p>{read_time} <FontAwesomeIcon onClick={()=>handleClick(props.product)} icon={faVectorSquare} /></p>
                 </div>
             </div>
             <h1>{discription}</h1>
